@@ -1,3 +1,3 @@
 # First portfolio
 
-First design abotu web developmento potfolio.
+First design about web development potfolio.
