@@ -24,6 +24,10 @@
 				font-size: 62.5%;
 			}
 
+			.nav-link{
+				font-size: 1.4rem;
+			}
+
 			h2,
 			h1,
 			p {
@@ -53,7 +57,7 @@
 				width: 300px;
 			}
 
-			a {
+			.about-info{
 				margin-top: 50px;
 				height: 15px;
 				font-size: 2rem;
@@ -78,19 +82,24 @@
 		</style>
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg bg-light">
+	<nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Pricing</a>
-        <a class="nav-link disabled">Disabled</a>
-      </div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+      </ul>
     </div>
   </div>
 </nav>
@@ -98,12 +107,12 @@
 		<h1>Diana Castaño</h1>
 		<p>🇨🇴 Front-end developer, based in South America</p>
 		<div class="contact-container">
-			<a
+			<a class="about-info"
 				href="./about.html#contact"
 				id="contact-link">
 				Contact Me
 			</a>
-			<a
+			<a class="about-info"
 				href="./about.html"
 				id="abount-link">
 				About Me
