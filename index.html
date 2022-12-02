@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Diana Castaño</title>
+		<style>
+			:root {
+				--primary-color: #6357ff;
+				--secondary-color: #fffdff;
+				--paragraph-color: #696769;
+			}
+
+			* {
+				margin: 0;
+				padding: 0;
+				font-size: 62.5%;
+			}
+
+			h2,
+			h1,
+			p {
+				text-align: center;
+			}
+
+			h2 {
+				margin-top: 50px;
+				font-size: 4rem;
+			}
+
+			h1 {
+				font-size: 6rem;
+			}
+
+			p {
+				margin-top: 10px;
+				color: var(--paragraph-color);
+				font-size: 2rem;
+				font-weight: bold;
+			}
+
+			.contact-container {
+				display: flex;
+				justify-content: space-around;
+				margin: 0 auto;
+				width: 300px;
+			}
+
+			a {
+				margin-top: 50px;
+				height: 15px;
+				font-size: 2rem;
+				text-decoration: none;
+			}
+
+			#contact-link {
+				padding: 32px 15px;
+				background: var(--primary-color);
+				border-radius: 10px;
+				box-shadow: -1px 7px 21px 0px rgba(0, 0, 0, 0.49);
+				color: var(--secondary-color);
+			}
+
+			#abount-link {
+				padding: 30px 15px;
+				background: var(--secondary-color);
+				border: 1px solid var(--primary-color);
+				border-radius: 10px;
+				color: var(--primary-color);
+			}
+		</style>
+	</head>
+	<body>
+		<h2>👋 Hi I am</h2>
+		<h1>Diana Castaño</h1>
+		<p>🇨🇴 Front-end developer, based in South America</p>
+		<div class="contact-container">
+			<a
+				href="./about.html#contact"
+				id="contact-link">
+				Contact Me
+			</a>
+			<a
+				href="./about.html"
+				id="abount-link">
+				About Me
+			</a>
+		</div>
+	</body>
+</html>
