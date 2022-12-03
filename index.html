@@ -9,8 +9,15 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0" />
 		<title>Diana Castaño</title>
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+			crossorigin="anonymous" />
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+			crossorigin="anonymous"></script>
 		<style>
 			:root {
 				--primary-color: #6357ff;
@@ -24,11 +31,11 @@
 				font-size: 62.5%;
 			}
 
-			nav{
+			nav {
 				position: fixed;
 			}
 
-			.nav-link{
+			.nav-link {
 				font-size: 1.4rem;
 			}
 
@@ -61,9 +68,8 @@
 				width: 300px;
 			}
 
-			.about-info{
+			.about-info {
 				margin-top: 50px;
-				height: 15px;
 				font-size: 2rem;
 				text-decoration: none;
 			}
@@ -74,6 +80,7 @@
 				border-radius: 10px;
 				box-shadow: -1px 7px 21px 0px rgba(0, 0, 0, 0.49);
 				color: var(--secondary-color);
+				text-align: center;
 			}
 
 			#abount-link {
@@ -83,44 +90,180 @@
 				border-radius: 10px;
 				color: var(--primary-color);
 			}
+
+			.project-container {
+				margin-top: 30px;
+			}
+
+			.project-row{
+				margin-bottom:40px;
+			}
+
+			h3 {
+				font-size: 2.5rem;
+			}
+
+			.app-info {
+				font-size:1.4rem;
+				text-align: justify;
+				margin-bottom: 25px; 
+			}
+
+			.app-link{
+				margin:0 auto;
+				font-size: 1.4rem;
+				text-decoration: none;
+				padding: 20px 15px;
+				background: var(--primary-color);
+				border-radius: 10px;
+				box-shadow: -1px 7px 21px 0px rgba(0, 0, 0, 0.49);
+				color: var(--secondary-color);
+				text-align: center;
+			}
 		</style>
 	</head>
 	<body>
-	<nav class="navbar navbar-expand-lg bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#homepage">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./about.html">About me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./about.html#contact">Contact me</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+		<nav class="navbar navbar-expand-lg bg-light">
+			<div class="container-fluid">
+				<a
+					class="navbar-brand"
+					href="#"
+					>Diana Castaño</a
+				>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div
+					class="collapse navbar-collapse"
+					id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a
+								class="nav-link active"
+								aria-current="page"
+								href="#homepage"
+								>Home</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link"
+								href="./about.html"
+								>About me</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link"
+								href="./about.html#contact">
+								Contact me
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 		<h2 id="homepage">👋 Hi I am</h2>
 		<h1>Diana Castaño</h1>
 		<p>🇨🇴 Front-end developer, based in South America</p>
 		<div class="contact-container">
-			<a class="about-info"
+			<a
+				class="about-info"
 				href="./about.html#contact"
 				id="contact-link">
 				Contact Me
 			</a>
-			<a class="about-info"
+			<a
+				class="about-info"
 				href="./about.html"
 				id="abount-link">
 				About Me
 			</a>
+		</div>
+		<div class="project-container container">
+			<div class="row project-row">
+				<div class="col-sm-6">
+					<img
+						class="img-fluid img-thumbnail app-img"
+						src="./src/persona-5-p2.png"
+						alt="landing page picture" />
+				</div>
+				<div class="col-sm-6">
+					<h3>Persona 5 page</h3>
+					<p class="app-info">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eos ad blanditiis nesciunt? Officiis reprehenderit odit et animi commodi laudantium facere laborum soluta eaque porro officia, possimus voluptates eligendi voluptatibus.
+					</p>
+					<a
+						class="app-link"
+						href="https://natsumychan.github.io/persona-5-land-page/" target="_blank">
+						Persona Page
+					</a>
+				</div>
+			</div>
+				<div class="row project-row">
+				<div class="col-sm-6">
+					<img
+						class="img-fluid img-thumbnail app-img"
+						src="./src/error-404.png"
+						alt="error 404 page" />
+				</div>
+				<div class="col-sm-6">
+					<h3>Error 404</h3>
+					<p class="app-info">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eos ad blanditiis nesciunt? Officiis reprehenderit odit et animi commodi laudantium facere laborum soluta eaque porro officia, possimus voluptates eligendi voluptatibus.
+					</p>
+					<a
+						class="app-link"
+						href="https://natsumychan.github.io/error-404-page/" target="_blank">
+						Error page
+					</a>
+				</div>
+			</div>
+				<div class="row project-row">
+				<div class="col-sm-6">
+					<img
+						class="img-fluid img-thumbnail app-img"
+						src="./src/weather-app.png"
+						alt="weather app picture" />
+				</div>
+				<div class="col-sm-6">
+					<h3>Weather App</h3>
+					<p class="app-info">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eos ad blanditiis nesciunt? Officiis reprehenderit odit et animi commodi laudantium facere laborum soluta eaque porro officia, possimus voluptates eligendi voluptatibus.
+					</p>
+					<a
+						class="app-link"
+						href="https://visionary-klepon-971cbf.netlify.app/" target="_blank">
+						Weather App
+					</a>
+				</div>
+			</div>
+			<div class="row project-row">
+				<div class="col-sm-6">
+					<img
+						class="img-fluid img-thumbnail app-img"
+						src="./src/batata-bit.png"
+						alt="batata app picture" />
+				</div>
+				<div class="col-sm-6">
+					<h3>Batata bit page</h3>
+					<p class="app-info">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eos ad blanditiis nesciunt? Officiis reprehenderit odit et animi commodi laudantium facere laborum soluta eaque porro officia, possimus voluptates eligendi voluptatibus.
+					</p>
+					<a
+						class="app-link"
+						href="https://natsumychan.github.io/batata-bit/" target="_blank">
+						Batata page
+					</a>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
