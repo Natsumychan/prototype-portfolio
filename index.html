@@ -31,6 +31,10 @@
 				font-size: 62.5%;
 			}
 
+			body{
+				box-sizing: border-box;
+			}
+
 			.navbar {
 				position: fixed;
 				top: 0;
@@ -122,6 +126,53 @@
 				color: var(--secondary-color);
 				text-align: center;
 			}
+
+			@media(max-width: 596px){
+				h2{
+					font-size:2rem;
+				}
+				h1{
+					font-size:2.5rem;
+				}
+				p{
+					width:90%;
+					font-size:1.4rem;
+				}
+
+				.about-info {
+					font-size: 1.6rem;
+				}
+
+				#contact-link{
+					padding:15px 10px;
+				} 
+
+				#abount-link{
+					padding:15px 10px;
+				}
+
+				.app-img{
+					display:none;
+				}
+
+				h3{
+					text-align: center;
+				}
+
+				.app-info{
+					margin: 0 auto;
+					padding-bottom:30px;
+				}
+
+				.app-link{
+					display:block;
+					margin:0 auto;
+					width:90%;
+					padding: 20px 70px;
+				}
+
+			}
+
 		</style>
 	</head>
 	<body>
@@ -179,7 +230,7 @@
 			<a
 				class="about-info"
 				href="./about.html#contact"
-				id="contact-link">
+				id="contact-link" title="Contact Diana Castaño">
 				Contact Me
 			</a>
 			<a
